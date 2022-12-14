@@ -21,7 +21,6 @@ a {
 }
 
 .center {
-  width: 400px;
   margin: 0 auto;
 }
 
@@ -277,7 +276,7 @@ footer {
   text-align: right;
 }
 
-.login-box{
+.login-box, .signup-box{
   width: 100%;
   padding: 20px 10px;
   background-color: white;
@@ -498,6 +497,10 @@ a.profile-link:hover, a.public-name:hover{
 
   .comment{
     margin: 5px 50px;
+  }
+
+  .center{
+    width:400px;
   }
 }
 
