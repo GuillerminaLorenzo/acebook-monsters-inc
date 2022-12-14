@@ -39,6 +39,18 @@ a {
     float:left;
 }
 
+.navbar-toggler {
+  color: white;
+}
+
+.navbar-toggler-icon {
+  background-image: url('../images/menu-btn.png')
+}
+
+li.nav-item a {
+  color:rgb(94, 21, 101);
+}
+
 .profile-picture {
   border-radius: 50%;
   width: 40px;
@@ -124,6 +136,10 @@ footer {
   color: white;
 }
 
+#image-selector {
+  font-size: 16px;
+}
+
 #image-selector::file-selector-button:hover, #image-selector::file-selector-button:active , #image-selector-profile::file-selector-button:hover, #image-selector-profile::file-selector-button:active {
   background-color: rgb(94, 21, 101);
   border: 3px solid rgb(236, 122, 247);
@@ -153,14 +169,12 @@ footer {
   border: 3px solid rgb(150, 38, 160);
   border-radius: 10px;
   font-size: 20px;
-  width: 225.5px;
 }
 
 #new-post-form input[type=submit]:hover, #new-post-form input[type=submit]:active {
   background-color: rgb(94, 21, 101);
   border: 3px solid rgb(236, 122, 247);
   color: white;
-  width: 249.5px;
 }
 
 .posts {
@@ -469,12 +483,8 @@ a.profile-link:hover, a.public-name:hover{
     text-align: left;
   }
 
-  input#message{
-    width:450px;
-  }
-
-  input#input-post, #comment-submit{
-    width:150px !important;
+  input#input-post{
+    width: 100px;
   }
 
   div.post{
@@ -499,8 +509,41 @@ a.profile-link:hover, a.public-name:hover{
     margin: 5px 50px;
   }
 
+
   .center{
     width:400px;
+
+  input#message{
+    width: 80%;
+  }
+}
+
+@media (min-width:992px) {
+  li.nav-item a {
+    color: white;
+  }
+}
+
+@media (max-width:760px) {
+
+  input#message{
+    width: 90%;
+    margin: 5px auto;
+    display: block;
+  }
+
+  input#input-post{
+    width: 100px;
+    margin: 5px auto;
+    display: block;
+  }
+
+  #post-message-plus-button {
+    align-items: center;
+  }
+
+  footer {
+    font-size: 11px;
   }
 }
 
@@ -509,4 +552,5 @@ a.profile-link:hover, a.public-name:hover{
   .form-login {
     width: 30%;
   }
+
 }

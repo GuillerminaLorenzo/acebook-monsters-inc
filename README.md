@@ -1,6 +1,7 @@
 # Acebook
 
-This is a Node.js Acebook engineering project.
+This is a Social Media App written in Node.js.  
+It was a team project during the Makers Coding Bootcamp.   
 
 Created by [Guillermina Lorenzo](https://github.com/GuillerminaLorenzo), [James Ruffini](https://github.com/iniffur), [Jonas Diete](https://github.com/jonas-diete), [Liovirgilda Mendonca](https://github.com/liovirgildam), [Millennia Severino](https://github.com/MillieKS) and [Thomas Mannion](https://github.com/TomMannion).
 
@@ -14,15 +15,16 @@ It uses:
 - [Jest](https://jestjs.io/) for testing.
 - [Cypress](https://www.cypress.io/) for end-to-end testing.
 
-## Card wall
+## Our Trello Board
 
+We worked together using Agile workflows - we created tickets and assigned them to people to implement all features.  
 https://trello.com/b/TEgHXan1/monsters-inc-project
 
-## Hosted on Heroku
-
+## Try it!
+Here is the live link - sign up as a new user and post something on the wall!  
 https://acebook-monsters-inc.herokuapp.com/
 
-## If you want to try this on your computer, download this repo and follow these instructions:
+## If you want to run the app on your computer, download this repo and follow these instructions:
 
 ### Install Node.js
 
@@ -89,12 +91,3 @@ so that integration tests do not interact with the development server.
   npm run test:unit         # unit tests only
   npm run test:integration  # integration tests only
   ```
-
-## MongoDB Connection Errors?
-
-Some people occasionally experience MongoDB connection errors when running the tests or trying to use the application. Here are some tips which might help resolve such issues.
-
-- Check that MongoDB is installed using `mongo --version`
-- Check that it's running using `brew services list`
-
-If you have issues that are not resolved by these tips, please reach out to a coach and, once the issue is resolved, we can add a new tip!

@@ -1,8 +1,10 @@
 <div class="form-post-image">
   <form id="new-post-form" action="/posts" method="post" enctype="multipart/form-data">
     <div id="message-container"><label for="message">What's on your mind?</label></div>
-    <div><input id="message" type="text" name="message" >
-    <input id="input-post" type="submit" value="Post"></div>
+    <div id="post-message-plus-button">
+      <input id="message" type="text" name="message" >
+      <input id="input-post" type="submit" value="Post">
+    </div>
     <div><input id="image-selector" type="file" name="image" value="Post" accept=".png, .jpeg, .jpg, .gif, .webp"></div>
   </form>
 </div>
