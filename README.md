@@ -22,7 +22,7 @@ https://trello.com/b/TEgHXan1/monsters-inc-project
 
 ## Try it!
 Here is the live link - sign up as a new user and post something on the wall!  
-https://acebook-monsters-inc.herokuapp.com/
+https://monsters-inc-acebook.herokuapp.com/
 
 ## If you want to run the app on your computer, download this repo and follow these instructions:
 
