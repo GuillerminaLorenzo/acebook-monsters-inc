@@ -25,8 +25,9 @@ Here is the live link - sign up as a new user and post something on the wall!
 https://monsters-inc-acebook.herokuapp.com/
 
 ## Our design  
-On the first day we created a design document to agree on how we organise the MongoDB database and the different screens. This is what it looks like.
-![design document](./public/images/design-overview.png)
+On the first day we created a design document to agree on how we organise the MongoDB database and the different screens. Here are the overviews:  
+![design document](./public/images/design-document.png)
+![database overview](./public/images/database-overview.png)
 
 ## If you want to run the app on your computer, download this repo and follow these instructions:
 
